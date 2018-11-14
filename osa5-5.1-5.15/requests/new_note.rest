@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/blogs
+content-type: application/json
+Authorization: bearer brbrbr
+
+{
+    "title": "Uusi title",
+    "author": "Henkilo",
+    "url": "zzzz",
+    "iidee": 1,
+    "userId": "5bc863f52daaeb1e30aa9577"
+}
